@@ -1,27 +1,31 @@
 /* styles.css */
 
 body {
-  background-color: #e6ce55;
+  background-color: #b1d2db;
   font-family: Helvetica, Arial, sans-serif;
 }
 
 .backgroundImage {
-  background-image: url(../img/wrench.png);
+  background-image: url(/assets/img/EPAlogo.png);
   width: 400px;
   height: 400px;
   margin: 64px auto;
 }
 
 .backgroundImage:hover {
-  background-image: url(../img/clock.png);
+  background-image: url(/assets/img/EPANews.png);
   cursor: crosshair;
 }
 
-h1 {
-  color: black;
+.h1 {
+  color: rgb(19, 87, 183);
   font-size: 48px;
   text-align: center;
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
 }
+
 
 .text {
   width: 50%;
@@ -37,7 +41,7 @@ h1 {
 }
 
 h2 {
-  color: dodgerblue;
+  color: rgb(11, 113, 50);
   font-size: 40px;
   text-align: left;
 }
@@ -49,7 +53,7 @@ h3 {
 
 h3 a:link,
 h3 a:visited {
-  color: dodgerblue;
+  color: rgb(14, 117, 64);
   text-decoration: none;
 }
 
