@@ -26,6 +26,13 @@ body {
   font-style: normal;
 }
 
+.h1:hover {
+  color:rgb(123, 114, 15);
+  cursor: crosshair;
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .text {
   width: 50%;
@@ -34,10 +41,7 @@ body {
 
 .text * {
   display: inline-block;
-  width: 48%;
-  margin: 0;
-  padding: 0;
-  vertical-align: middle;
+  vertical-align: center; 
 }
 
 h2 {
@@ -48,7 +52,7 @@ h2 {
 
 h3 {
   font-size: 16px;
-  text-align: right;
+  text-align: center; 
 }
 
 h3 a:link,
